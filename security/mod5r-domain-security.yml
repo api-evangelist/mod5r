@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: akasia.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  2 06:59:15 2026 GMT
+  hsts: false
+domains:
+- domain: akasia.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
